@@ -31,7 +31,10 @@ UserProfile.prototype.getProfile = function(userInput) {
                         </div>
                     </div>
                 <div>
-             `)
-           })
-          })
+             `);
+           });
+         });
+         $('#profile').html(`
+
+           `)
         }
