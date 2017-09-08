@@ -58,10 +58,12 @@ UserProfile.prototype.getProfile = function(userInput) {
                          <ul class="list-group">
                            <li class="list-group-item"><h5>Name:</h5>${response.name}</li>
                            <li class="list-group-item"><h5>Email:</h5> ${response.email}</li>
-             <li class="list-group-item"><h5>Location:</h5> ${response.location}</li>
-             <li class="list-group-item"><h5>Hireable:</h5> ${response.hireable}</li>
+                           <li class="list-group-item"><h5>Location:</h5> ${response.location}</li>
+                           <li class="list-group-item"><h5>Hireable:</h5> ${response.hireable}</li>
+                         </ul>
+                     </div>
                  </div>
-                </div>
+            </div>
            `)
-        }
+        }).fail(function(){})
         exports.UserProfileModule = UserProfile;
