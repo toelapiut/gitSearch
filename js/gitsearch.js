@@ -42,6 +42,12 @@ UserProfile.prototype.getProfile = function(userInput) {
                    <img class="img-responsive" src="${response.avatar_url}" alt="user-image" title="${response.name}">
                  </div>
                  <hr>
+                 <h4>User Bio</h4>
+                     <p>${response.bio}<p>
+                     <hr>
+                     <span class="label label-primary">Followers ${response.followers}</span>
+                     <span class="label label-primary">Following ${response.following}</span>
+                     <hr>
                  </div>
                 </div>
            `)
