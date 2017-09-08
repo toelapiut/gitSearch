@@ -35,7 +35,15 @@ UserProfile.prototype.getProfile = function(userInput) {
             });
           });
           $('#profile').html(`
-
+            <div class="col-md-4 col-sm-4" ">
+            <div class="row">
+               <div class="col-md-3" ">
+                 <div id="i">
+                   <img class="img-responsive" src="${response.avatar_url}" alt="user-image" title="${response.name}">
+                 </div>
+                 <hr>
+                 </div>
+                </div>
            `)
         }
         exports.UserProfileModule = UserProfile;
