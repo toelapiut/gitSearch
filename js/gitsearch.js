@@ -32,9 +32,10 @@ UserProfile.prototype.getProfile = function(userInput) {
                     </div>
                 <div>
              `);
-           });
-         });
-         $('#profile').html(`
+            });
+          });
+          $('#profile').html(`
 
            `)
         }
+        exports.UserProfileModule = UserProfile;
