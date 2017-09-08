@@ -48,6 +48,11 @@ UserProfile.prototype.getProfile = function(userInput) {
                      <span class="label label-primary">Followers ${response.followers}</span>
                      <span class="label label-primary">Following ${response.following}</span>
                      <hr>
+                     <span class="label label-success">Created at: ${response.created_at}</span>
+                    </div>
+                    <div class="col-md-6">
+                      <h3>User Details</h3>
+                      <hr>
                  </div>
                 </div>
            `)
