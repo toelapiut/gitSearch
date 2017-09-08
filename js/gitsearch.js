@@ -53,6 +53,10 @@ UserProfile.prototype.getProfile = function(userInput) {
                     <div class="col-md-6">
                       <h3>User Details</h3>
                       <hr>
+                      <hr>
+                       <div class="well">
+                         <ul class="list-group">
+                           <li class="list-group-item"><h5>Name:</h5>${response.name}</li>
                  </div>
                 </div>
            `)
